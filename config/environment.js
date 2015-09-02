@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'nested',
+    podModulePrefix: 'nested/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

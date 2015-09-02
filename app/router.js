@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('properties', function() {
+    this.route('house', function() {
+    });
+  });
 });
 
 export default Router;
